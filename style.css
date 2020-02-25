@@ -1,7 +1,7 @@
 .html {
     width: 100%;
-    height: 100%;
-    margin: auto;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar {
     height: 60px;
@@ -72,21 +72,12 @@
     height: 25px;
     margin: 10px 15px 10px 260px;
 }
-.appsicon {
+.appsicon, .notify, .signin {
     height: 25px;
     margin: 10px 15px 10px 10px;
 }
-.notify {
-    height: 25px;
-    margin: 10px 15px 10px 10px;
-}
-.signin {
-    height: 30px;
-    vertical-align: middle;
-    display: inline-block;
-}
+
 .title {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
     font-weight: normal;
 }
@@ -95,7 +86,6 @@
     flex-direction: row;
     border-spacing: 4em;
     margin-top: 1px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: smaller;
     align-items: center;
 }
@@ -105,7 +95,6 @@
     justify-content: space-between;
 }
 .fitter {
-    background-color: rgba(212, 211, 211, 0.1);
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -118,13 +107,11 @@
 .upnext {
     margin: 0 20px 5px 10px;
     font-size: large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
 }
 .autoplay {
     margin: 0 0px 5px 120px;
     font-size: large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
 }
 .nextflex {
@@ -135,7 +122,7 @@
 }
 
 .paragraph p, a {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     font-size: smaller;
     margin-left: 5px;
     display: block;
@@ -151,7 +138,6 @@ a {
     color: black;
 }
 .footer {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     font-weight: normal;
     background-color: rgb(200, 206, 206);
@@ -184,14 +170,12 @@ h4 {
     font-weight: lighter;
 }
 .likesdislike {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
 }
 .name {
     float: right;
     line-height: 1px;
     margin-left: 7px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: row;
 }
@@ -208,14 +192,12 @@ iframe {
     background-color: red;
     border-color: red;
     border-radius: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     color: white;
 }
 
 .article {
     margin: 10px 20px 5px 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
     font-weight: normal;
     margin-top: 30px;
@@ -289,7 +271,6 @@ iframe {
 }
 
 .samplecomment > p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     margin-left: 50px;
     margin-top: 0px;
