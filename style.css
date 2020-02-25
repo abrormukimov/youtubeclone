@@ -1,8 +1,8 @@
 .html {
     width: 100%;
+    height: 100%;
     margin: auto;
 }
-
 .navbar {
     height: 60px;
     background-color: rgb(247, 243, 239);
@@ -11,105 +11,85 @@
     top: 0;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     position: fixed;
+}
 
-}   
+.navbardiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
 
 .fullbody {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
 }
-
 .videoplayer {
     background-color: transparent;
     height: 441px;
     width: 784px;
     margin: 50px 10px 10px 75px;
-
 }
-
 .bottomOfVideoplayer {
     background-color: rgba(231, 231, 230, 0.2);
     height: 220px;
     width: 784px;
     margin: 30px 10px 10px 75px;
-
 }
-
 .rightside {
-    background-color: rgba(196, 192, 196, 0.2);
-    height: 1000px;
+    background-color: rgba(236, 230, 236, 0.2);
+    height: 1200px;
     width: 400px;
     margin-top: 50px;
     margin-bottom: 0;
-
-
 }
-
 .fullbody {
     display: flex;
     flex-direction: row;
 }
-
-.footer {
-    background-color: rgb(200, 206, 206);
-    height: 90px;
-    width: 100%;
-    margin-top: 20px;
-}
-
 .menubar {
     height: 25px;
     margin: 10px 10px 10px 10px;
-    
-
 }
-
 .logo  {
     height: 90px;
     margin: 10px 15px 10px 1px;
-    
 }
-
 .input {
     height: 25px;
     margin: 10px 5px 10px 200px;
     width: 30em;
-    
 }
-
 .search {
     height: 30px;
     margin: 10px 15px 10px 1px;
 }
-
 .crvideo {
     height: 25px;
     margin: 10px 15px 10px 260px;
 }
-
 .appsicon {
     height: 25px;
     margin: 10px 15px 10px 10px;
 }
-
 .notify {
     height: 25px;
     margin: 10px 15px 10px 10px;
 }
-
 .signin {
     height: 30px;
-    margin: 10px 15px 10px 10px;
+    vertical-align: middle;
+    display: inline-block;
 }
-
 .title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
     font-weight: normal;
 }
-
 .numberOfViews {
     display: flex;
     flex-direction: row;
@@ -119,139 +99,109 @@
     font-size: smaller;
     align-items: center;
 }
-
 .allTogether {
-       display: flex;
-       flex-direction: row;
-       justify-content: space-between;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
 .fitter {
     background-color: rgba(212, 211, 211, 0.1);
     height: 100%;
     display: flex;
     flex-direction: row;
 }
-
 .doflex {
-    display: flex;
-    flex-direction: row;
-    height: fit-content;
-    background-color: rgba(212, 211, 211, 0.1);
-    margin-top: 5px;    
+    display: flex;   
+    background-color: rgba(245, 235, 235, 0.1);
+    margin-top: 5px;
 }
-
 .upnext {
     margin: 0 20px 5px 10px;
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
-    
 }
-
 .autoplay {
     margin: 0 0px 5px 120px;
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
 }
-
-.onoff {
-    margin: 10px 20px 0 4px;
-    height: 25px;
-    
-    align-items: center;
-}
-
-
 .nextflex {
     display: flex;
     flex-direction: row;
-    margin-top: 5px;
+    margin-top: 1px;
+    
 }
-
-.paragraph {
+.paragraph p, a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: smaller;
     margin-left: 5px;
-    line-height: 1px;
-
-
+    display: block;
 }
-
 hr {
     opacity: 0.3;
 }
-
 .sidebar {
     margin-left: 15px;
-
 }
-
-
 a {
     text-decoration: none;
     color: black;
 }
-
 .footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     font-weight: normal;
-    align-items: center;
-      
-}
-
-.footerauth {
-    display: inline-flex;
+    background-color: rgb(200, 206, 206);
+    height: 30px;
+    width: 100%;
+    position: relative;
     
 }
+.footerdiv {
+    position: absolute;
+    bottom: 0px;
+
+
+}
+
+
 .author2 {
     margin-left: 20px;
 }
 
+.paragrapha {
+    font-weight: bold;
+}
 .author1 {
     margin-right: 20px;
     margin-left: 20px;
 }
 h4 {
     margin-left: 20px;
-    font-weight: lighter; 
+    font-weight: lighter;
 }
-
 .likesdislike {
-    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
-
 }
-.avatarandname {
-    
-    
-        
-}
-
 .name {
     float: right;
-    
     line-height: 1px;
     margin-left: 7px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: row;
 }
-
 .subscribe {
-    
     margin-right: 10px;
 }
-
+iframe {
+  border: 0;
+}
 .button {
-    
     font-weight: normal;
-    
-    
     height: 30px;
     width: 110px;
     background-color: red;
@@ -267,8 +217,88 @@ h4 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
     font-weight: normal;
+    margin-top: 30px;
+}
+.logoandsubs {
+    margin-right: 450px;
 }
 
-.logoandsubs {
-    margin-right: 450px;   
+.fa {
+    margin-left: 30px;
+}
+
+.avatarandname {
+    border-bottom: 1px solid rgb(202, 198, 198);
+    padding-bottom: 10px;
+}
+
+.commentbar {
+    margin-top: 10px;
+}
+
+.commentbar > i {
+    margin-left: 20px;
+    color: gray;
+}
+
+.leavecomment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.leavec {
+    width: 720px;
+    height: 15px;
+    vertical-align: top;
+    margin-left: 10px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom-color: rgb(216, 212, 212);
+    border-bottom-width: 1px;
+    margin-top: 10px;
+}
+
+.samplecomment {
+    margin-top: 30px;
+}
+.samplecomment > img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+    
+}
+
+.anotherusername {
+    margin-left: 10px;
+}
+.month {
+    color: rgb(107, 100, 100);
+    font-size: small;
+    margin-left: 10px;
+    
+}
+
+.fa-ellipsis-h {
+    float: right;
+    
+}
+
+.samplecomment > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.ldislikes {
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.respond {
+    margin-left: 20px;
 }
