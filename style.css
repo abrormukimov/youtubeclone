@@ -41,7 +41,7 @@
     margin: 30px 10px 10px 75px;
 }
 .rightside {
-    background-color: rgba(196, 192, 196, 0.2);
+    background-color: rgba(236, 230, 236, 0.2);
     height: 1200px;
     width: 400px;
     margin-top: 50px;
@@ -112,7 +112,7 @@
 }
 .doflex {
     display: flex;   
-    background-color: rgba(212, 211, 211, 0.1);
+    background-color: rgba(245, 235, 235, 0.1);
     margin-top: 5px;
 }
 .upnext {
@@ -170,6 +170,10 @@ a {
 .author2 {
     margin-left: 20px;
 }
+
+.paragrapha {
+    font-weight: bold;
+}
 .author1 {
     margin-right: 20px;
     margin-left: 20px;
@@ -221,4 +225,80 @@ iframe {
 
 .fa {
     margin-left: 30px;
+}
+
+.avatarandname {
+    border-bottom: 1px solid rgb(202, 198, 198);
+    padding-bottom: 10px;
+}
+
+.commentbar {
+    margin-top: 10px;
+}
+
+.commentbar > i {
+    margin-left: 20px;
+    color: gray;
+}
+
+.leavecomment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.leavec {
+    width: 720px;
+    height: 15px;
+    vertical-align: top;
+    margin-left: 10px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom-color: rgb(216, 212, 212);
+    border-bottom-width: 1px;
+    margin-top: 10px;
+}
+
+.samplecomment {
+    margin-top: 30px;
+}
+.samplecomment > img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+    
+}
+
+.anotherusername {
+    margin-left: 10px;
+}
+.month {
+    color: rgb(107, 100, 100);
+    font-size: small;
+    margin-left: 10px;
+    
+}
+
+.fa-ellipsis-h {
+    float: right;
+    
+}
+
+.samplecomment > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.ldislikes {
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.respond {
+    margin-left: 20px;
 }
